@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+}
+.profile{
+    border-radius: 50%;
+}
+#welcome{
+    bottom: 0;
+    background: linear-gradient(#b42df7 0%, #e69720 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+.nav_bar{
+    position:sticky;
+    top:0;
+    z-index: 999999;
+}
+h1{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+#name{
+    font-size: 50px;
+    font-family: 'Vujahday Script', cursive;
+}
+h2{
+    font-size: 30px;
+    font-weight:300 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#bio{
+    font-family: cursive;
+    padding: 50px;
+    text-align: center;
+}
+.line{
+    height:6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+#contact{
+background: dimgrey;
+}
+#contact iframe{
+    width:100%;
+}
+.contact_1 h3{
+    display: inline;
+}
